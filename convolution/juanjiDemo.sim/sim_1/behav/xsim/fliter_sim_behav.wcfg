@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="fliter_sim_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="fliter_sim" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="1056000001fs"></ZoomEndTime>
+      <Cursor1Time time="590000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="229"></NameColumnWidth>
+      <ValueColumnWidth column_width="145"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="12" />
+   <wvobject fp_name="/fliter_sim/sys_clk" type="logic">
+      <obj_property name="ElementShortName">sys_clk</obj_property>
+      <obj_property name="ObjectShortName">sys_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/sys_rst_n" type="logic">
+      <obj_property name="ElementShortName">sys_rst_n</obj_property>
+      <obj_property name="ObjectShortName">sys_rst_n</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/R_iData" type="array">
+      <obj_property name="ElementShortName">R_iData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_iData[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/G_iData" type="array">
+      <obj_property name="ElementShortName">G_iData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">G_iData[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/B_iData" type="array">
+      <obj_property name="ElementShortName">B_iData[7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_iData[7:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/R_conv_input" type="array">
+      <obj_property name="ElementShortName">R_conv_input[5:0][5:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">R_conv_input[5:0][5:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/G_conv_input" type="array">
+      <obj_property name="ElementShortName">G_conv_input[5:0][5:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">G_conv_input[5:0][5:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/B_conv_input" type="array">
+      <obj_property name="ElementShortName">B_conv_input[5:0][5:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">B_conv_input[5:0][5:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/finish_flag" type="logic">
+      <obj_property name="ElementShortName">finish_flag</obj_property>
+      <obj_property name="ObjectShortName">finish_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/R_oData" type="array">
+      <obj_property name="ElementShortName">R_oData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">R_oData[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/G_oData" type="array">
+      <obj_property name="ElementShortName">G_oData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">G_oData[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fliter_sim/u_filter_3x3/B_oData" type="array">
+      <obj_property name="ElementShortName">B_oData[15:0]</obj_property>
+      <obj_property name="ObjectShortName">B_oData[15:0]</obj_property>
+   </wvobject>
+</wave_config>

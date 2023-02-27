@@ -1,0 +1,17 @@
+Vivado Simulator v2022.2
+Copyright 1986-1999, 2001-2022 Xilinx, Inc. All Rights Reserved.
+Running: D:/Xilinx/Xilinx/Vivado/2022.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot fliter_sim_behav xil_defaultlib.fliter_sim xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'R_oData' [C:/Users/Lenovo/Desktop/convolution/juanjiDemo.srcs/sim_1/new/fliter_sim.v:18]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'G_oData' [C:/Users/Lenovo/Desktop/convolution/juanjiDemo.srcs/sim_1/new/fliter_sim.v:19]
+WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 16 for port 'B_oData' [C:/Users/Lenovo/Desktop/convolution/juanjiDemo.srcs/sim_1/new/fliter_sim.v:20]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.filter_3x3
+Compiling module xil_defaultlib.fliter_sim
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot fliter_sim_behav
